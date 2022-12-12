@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2022
 		Month: 12
-		Day: 6
+		Day: 12
 		Hour: 19
-		Minute: 51
-		Second: 40
-		Millisecond: 982
+		Minute: 24
+		Second: 57
+		Millisecond: 809
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -37,13 +37,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "SideFX Software"
 			P: "Original|ApplicationName", "KString", "", "", "Houdini"
 			P: "Original|ApplicationVersion", "KString", "", "", "19.5.435"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "06/12/2022 11:51:40.981"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "12/12/2022 11:24:57.808"
 			P: "Original|FileName", "KString", "", "", "C:\Houdini_Project\EarthLibrary\fbx\mod_Book_B.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "SideFX Software"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Houdini"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "19.5.435"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "06/12/2022 11:51:40.981"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/12/2022 11:24:57.808"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Houdini_Project\EarthLibrary"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Houdini_Project\EarthLibrary\earth_library.hiplc"
 		}
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 183706624, "", "Scene" {
+	Document: 256594432, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -201,7 +201,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 210555072, "Geometry::switch1", "Mesh" {
+	Geometry: 257841536, "Geometry::switch1", "Mesh" {
 		Vertices: *24 {
 			a: 11.2831916809082,-50,29.2546997070313,-11.2831916809082,-50,29.2546997070313,11.2831916809082,50,29.2546997070313,-11.2831916809082,50,29.2546997070313,-11.2831916809082,-50,-29.2546997070313,11.2831916809082,-50,-29.2546997070313,-11.2831916809082,50,-29.2546997070313,11.2831916809082,50,-29.2546997070313
 		} 
@@ -215,21 +215,46 @@ Objects:  {
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
 			UV: *48 {
-				a: 0.707141757011414,0.484745860099792,0.597752153873444,0.484745860099792,0.597752153873444,0,0.707141757011414,0,0.109389610588551,0.984745860099792,0,0.984745860099792,0,0.5,0.109389610588551,0.5,0.12464378029108,0.5,0.234033390879631,0.5,0.234033390879631,0.783621907234192,0.12464378029108,0.783621907234192,0.358677178621292,0.783621907234192,0.249287560582161,0.783621907234192,0.249287560582161,0.5,0.358677178621292,0.5,0.582497954368591,0.484745860099792,0.298876047134399,0.484745860099792,0.298876047134399,0,0.582497954368591,0,0.28362187743187,0.484745860099792,0,0.484745860099792,0,0,0.28362187743187,0
+				a: 0,0.852595865726471,0,0.71875,0.593120694160461,0.71875,0.593120694160461,0.852595865726471,0,0.999080240726471,0,0.865234375,0.593120694160461,0.865234375,0.593120694160461,0.999080240726471,0.60546875,0.133845865726471,0.605468809604645,0,0.95250016450882,1.88168840509206e-08,0.952500104904175,0.133845895528793,0.605468809604645,0.280330270528793,0.60546875,0.146484389901161,0.952500104904175,0.146484375,0.952500104904175,0.280330240726471,0,0.706406354904175,0,0.359375,0.593120694160461,0.359375,0.593120694160461,0.706406354904175,0,0.347031354904175,0,3.63181688136961e-17,0.593120694160461,0,0.593120694160461,0.347031354904175
 			} 
 			UVIndex: *24 {
 				a: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
 			} 
 		}
+		LayerElementUserData: 0 {
+			Version: 101
+			Name: "UserDataLayer0"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "Direct"
+			UserDataId: 0
+			UserDataArray:  {
+				UserDataType: "Float"
+				UserDataName: "coverage"
+				UserData: *1 {
+					a: 0.6633339
+				} 
+			}
+			UserDataArray:  {
+				UserDataType: "Integer"
+				UserDataName: "numnonpacked"
+				UserData: *1 {
+					a: 0
+				} 
+			}
+		}
 		Layer: 0 {
 			Version: 100
+			LayerElement:  {
+				Type: "LayerElementUserData"
+				TypedIndex: 0
+			}
 			LayerElement:  {
 				Type: "LayerElementUV"
 				TypedIndex: 0
 			}
 		}
 	}
-	Model: 1501162240, "Model::switch1", "Mesh" {
+	Model: 271567744, "Model::switch1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -247,10 +272,10 @@ Objects:  {
 Connections:  {
 	
 	;Model::switch1, Model::RootNode
-	C: "OO",1501162240,0
+	C: "OO",271567744,0
 	
 	;Geometry::switch1, Model::switch1
-	C: "OO",210555072,1501162240
+	C: "OO",257841536,271567744
 }
 ;Takes section
 ;----------------------------------------------------
