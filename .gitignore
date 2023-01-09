@@ -3,4 +3,4 @@
 *.painter_lock
 *_bak*.hiplc
 *_bak*.hdalc
-SD_Prj\.autosave\
+SD_Prj/.autosave/
